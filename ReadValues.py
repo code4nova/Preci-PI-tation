@@ -15,4 +15,4 @@ while True:
 	# input_value = mcp.read_adc(2)		
 	print 'input_value is: ' + str(input_value)
 	# print 'input value2 is: ' + str(input_value2)
-	time.sleep(0.5)
+	time.sleep(1)
