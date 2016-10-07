@@ -1,6 +1,7 @@
 import time
 import Adafruit_GPIO.SPI as SPI
 import Adafruit_MCP3008
+
 # Hardware SPI configuration (its best with the ADC)
 SPI_PORT = 0
 SPI_DEVICE = 0
@@ -15,4 +16,3 @@ while True:
 	print 'input_value is: ' + str(input_value)
 	# print 'input value2 is: ' + str(input_value2)
 	time.sleep(0.5)
-
